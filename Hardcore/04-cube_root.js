@@ -1,5 +1,5 @@
-const cube = (a,b) => {
-    return Math.cbrt(a,b);
+const cube = (a) => {
+    return Math.cbrt(a);
 }
 
 console.log(cube(3))
