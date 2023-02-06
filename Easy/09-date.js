@@ -1,0 +1,2 @@
+let currentDate = new Date();
+console.log(currentDate.getDate() + "/" + (currentDate.getMonth() + 1) + "/" + currentDate.getFullYear()) // +1 for getMonth() because it provides the current month with 0 to 11 values
